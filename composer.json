@@ -1,7 +1,7 @@
 {
     "name": "altman/respond",
     "type": "library",
-    "description": "Easy RESTful json response for laravel and lumen",
+    "description": "Easy JSON response for Laravel and Lumen, a useful package for handle your RESTful API endpoint",
     "keywords": [
         "altman",
         "Respond",
