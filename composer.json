@@ -1,9 +1,9 @@
 {
-    "name": "anetwork/respond",
+    "name": "altman/respond",
     "type": "library",
-    "description": "Easy peasy json response for laravel",
+    "description": "Easy RESTful json response for laravel and lumen",
     "keywords": [
-        "Anetwork",
+        "altman",
         "Respond",
         "json"
     ],
@@ -28,12 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Anetwork\\Respond\\": "src"
+            "Altman\\Respond\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Anetwork\\Respond\\": "tests"
+            "Altman\\Respond\\": "tests"
         }
     },
     "scripts": {
