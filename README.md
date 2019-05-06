@@ -5,7 +5,7 @@
 
 # Laravel Respond
 
-This package is provided to be used on laravel framework v5 and upper and it gives clean methods to handle json response with specific predetermined messages.
+This package is provided to be used on lumen and laravel framework v5 and upper and it gives clean methods to handle json response with specific predetermined messages.
 
 # Requirement
 * Laravel ^5.1
