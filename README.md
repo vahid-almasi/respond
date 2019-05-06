@@ -18,7 +18,7 @@ This package is provided to be used on lumen and laravel framework v5 and upper 
 Via Composer
 
 ``` bash
-$ composer require Anetwork/Respond
+$ composer require vahid-almasi/respond
 ```
 
 ##Config
