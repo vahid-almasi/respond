@@ -242,7 +242,7 @@ class Messages extends Main
 
 	/**
 	 * The request field is doublicated
-	 * @author Mehdi Hosseini <m.hosseini@anetwork.ir>
+	 * @author Mehdi Hosseini <mehdi.hosseini.dev@gmail.com>
 	 * @since August 24, 2016
 	 * @return mixed
 	 */
@@ -257,7 +257,7 @@ class Messages extends Main
 
 	/**
 	 * Custom error message according to error config file
-	 * @author Mehdi Hosseini <m.hosseini@anetwork.ir>
+	 * @author Mehdi Hosseini <mehdi.hosseini.dev@gmail.com>
 	 * @since August 24, 2016
 	 * @param $code integer
 	 * @return mixed

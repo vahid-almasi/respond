@@ -45,7 +45,7 @@ class Main {
 	protected $config;
 
 	/**
-	 * @author Shahrokh Niakan <sh.niakan@anetwork.ir>
+	 * @author Shahrokh Niakan <shahrokhniakan@gmail.com>
 	 * @since Sep 24, 2016
 	 */
 	public function __construct() {
@@ -177,7 +177,7 @@ class Main {
 
 	/**
 	 * Set error code in our result
-	 * @author Mehdi Hosseini <m.hosseini@anetwork.ir>
+	 * @author Mehdi Hosseini <mehdi.hosseini.dev@gmail.com>
 	 * @since August 24, 2016
 	 * @param $errorCode integer
 	 * @return $this
@@ -194,7 +194,7 @@ class Main {
 
 	/**
 	 * Return Error code
-	 * @author Mehdi Hosseini <m.hosseini@anetwork.ir>
+	 * @author Mehdi Hosseini <mehdi.hosseini.dev@gmail.com>
 	 * @since August 24, 2016
 	 * @return integer
 	 */
@@ -206,7 +206,7 @@ class Main {
 
 	/**
 	 * Get error message
-	 * @author Mehdi Hosseini <m.hosseini@anetwork.ir>
+	 * @author Mehdi Hosseini <mehdi.hosseini.dev@gmail.com>
 	 * @since August 24, 2016
 	 * @return string
 	 */

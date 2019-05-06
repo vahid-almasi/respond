@@ -1,5 +1,5 @@
 {
-    "name": "altman/respond",
+    "name": "vahid-almasi/respond",
     "type": "library",
     "description": "Easy JSON response for Laravel and Lumen, a useful package for handle your RESTful API endpoint",
     "keywords": [
@@ -7,16 +7,8 @@
         "Respond",
         "json"
     ],
-    "homepage": "https://github.com/anetwork",
+    "homepage": "https://github.com/vahid-almasi",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Pemiphilo",
-            "email": "sh.payro@anetwork.ir",
-            "homepage": "http://anetwork.ir",
-            "role": "Developer"
-        }
-    ],
     "require": {
         "illuminate/support": "~5.1",
         "php" : "~5.5|~7.0"
