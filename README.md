@@ -2,7 +2,7 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/vahid-almasi/respond/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/vahid-almasi/respond/?branch=master)
 [![Latest Stable Version](https://poser.pugx.org/vahid/respond/v/stable)](https://packagist.org/packages/vahid/respond)
 [![Total Downloads](https://poser.pugx.org/vahid/respond/downloads)](https://packagist.org/packages/vahid/respond)
-
+[![License](https://poser.pugx.org/vahid/respond/license)](https://packagist.org/packages/vahid/respond)
 # Laravel Respond
 
 This package is provided to be used on lumen and laravel framework v5 and upper and it gives clean methods to handle json response with specific predetermined messages.
