@@ -1,6 +1,6 @@
 <?php
 
-namespace Anetwork\Respond;
+namespace Vahid\Respond;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -38,7 +38,7 @@ class RespondServiceProvider extends ServiceProvider
 	private function registerMessages()
 	{
 
-		$this->app->bind( 'Anetwork\Respond\Messages', function() {
+		$this->app->bind( 'Vahid\Respond\Messages', function() {
 
 			return new Messages();
 

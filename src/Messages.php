@@ -1,18 +1,19 @@
 <?php
 
-namespace Anetwork\Respond;
+namespace Vahid\Respond;
 
 class Messages extends Main
 {
 
-	/**
-	 * Request succeeded and contains json result
-	 * @param array $data
-	 * @author Shima Payro <sh.payro@anetwork.ir>
-	 * @since May 2, 2016 9:50:51 AM
-	 * @uses
-	 * @see
-	 */
+    /**
+     * Request succeeded and contains json result
+     * @param array $data
+     * @return mixed
+     * @since May 2, 2016 9:50:51 AM
+     * @uses
+     * @see
+     * @author Shima Payro <sh.payro@anetwork.ir>
+     */
 	public function succeed( $data ) {
 
 		return $this->setStatusCode( 200 )
@@ -21,14 +22,15 @@ class Messages extends Main
 
 	}
 
-	/**
-	 * Delete action is succeed
-	 * @author Shima Payro <sh.payro@anetwork.ir>
-	 * @param String $message
-	 * @since May 2, 2016 9:52:05 AM
-	 * @uses
-	 * @see
-	 */
+    /**
+     * Delete action is succeed
+     * @param String $message
+     * @return mixed
+     * @since May 2, 2016 9:52:05 AM
+     * @uses
+     * @see
+     * @author Shima Payro <sh.payro@anetwork.ir>
+     */
 	public function deleteSucceeded( $message = null ) {
 
 		if ( is_null( $message ) )
@@ -40,14 +42,15 @@ class Messages extends Main
 
 	}
 
-	/**
-	 * Update action is succeed
-	 * @author Shima Payro <sh.payro@anetwork.ir>
-	 * @param String $message
-	 * @since May 2, 2016 9:52:52 AM
-	 * @uses
-	 * @see
-	 */
+    /**
+     * Update action is succeed
+     * @param String $message
+     * @return mixed
+     * @since May 2, 2016 9:52:52 AM
+     * @uses
+     * @see
+     * @author Shima Payro <sh.payro@anetwork.ir>
+     */
 	public function updateSucceeded( $message = null ) {
 
 		if ( is_null( $message ) )
@@ -59,14 +62,15 @@ class Messages extends Main
 
 	}
 
-	/**
-	 * Insert action is succeed
-	 * @author Shima Payro <sh.payro@anetwork.ir>
-	 * @param String $message
-	 * @since May 2, 2016 9:53:26 AM
-	 * @uses
-	 * @see
-	 */
+    /**
+     * Insert action is succeed
+     * @param String $message
+     * @return mixed
+     * @since May 2, 2016 9:53:26 AM
+     * @uses
+     * @see
+     * @author Shima Payro <sh.payro@anetwork.ir>
+     */
 	public function insertSucceeded( $message = null ) {
 
 		if ( is_null( $message ) )
@@ -78,14 +82,15 @@ class Messages extends Main
 
 	}
 
-	/**
-	 * Delete action is faild
-	 * @author Shima Payro <sh.payro@anetwork.ir>
-	 * @param String $message
-	 * @since May 2, 2016 9:53:53 AM
-	 * @uses
-	 * @see
-	 */
+    /**
+     * Delete action is faild
+     * @param String $message
+     * @return mixed
+     * @since May 2, 2016 9:53:53 AM
+     * @uses
+     * @see
+     * @author Shima Payro <sh.payro@anetwork.ir>
+     */
 	public function deleteFaild( $message = null ) {
 
 		if ( is_null( $message ) )
@@ -98,14 +103,15 @@ class Messages extends Main
 
 	}
 
-	/**
-	 * Update action is succeed
-	 * @author Shima Payro <sh.payro@anetwork.ir>
-	 * @param String $message
-	 * @since May 2, 2016 9:54:09 AM
-	 * @uses
-	 * @see
-	 */
+    /**
+     * Update action is succeed
+     * @param String $message
+     * @return mixed
+     * @since May 2, 2016 9:54:09 AM
+     * @uses
+     * @see
+     * @author Shima Payro <sh.payro@anetwork.ir>
+     */
 	public function updateFaild( $message = null ) {
 
 		if ( is_null( $message ) )
@@ -118,14 +124,15 @@ class Messages extends Main
 
 	}
 
-	/**
-	 * Insert action is faild
-	 * @author Shima Payro <sh.payro@anetwork.ir>
-	 * @param String $message
-	 * @since May 2, 2016 9:54:27 AM
-	 * @uses
-	 * @see
-	 */
+    /**
+     * Insert action is faild
+     * @param String $message
+     * @return mixed
+     * @since May 2, 2016 9:54:27 AM
+     * @uses
+     * @see
+     * @author Shima Payro <sh.payro@anetwork.ir>
+     */
 	public function insertFaild( $message = null ) {
 
 		if ( is_null( $message ) )
@@ -138,14 +145,14 @@ class Messages extends Main
 
 	}
 
-	/**
-	 * Database connection is refused
-	 * @author Shima Payro <sh.payro@anetwork.ir>
-	 * @param String $message
-	 * @since May 2, 2016 9:54:45 AM
-	 * @uses
-	 * @see
-	 */
+    /**
+     * Database connection is refused
+     * @return mixed
+     * @since May 2, 2016 9:54:45 AM
+     * @uses
+     * @see
+     * @author Shima Payro <sh.payro@anetwork.ir>
+     */
 	public function connectionRefused() {
 
 		return $this->setStatusCode( 445 )
@@ -155,14 +162,15 @@ class Messages extends Main
 
 	}
 
-	/**
-	 * page requested is not found
-	 * @author Shima Payro <sh.payro@anetwork.ir>
-	 * @param String $message
-	 * @since May 2, 2016 9:55:20 AM
-	 * @uses
-	 * @see
-	 */
+    /**
+     * page requested is not found
+     * @param String $message
+     * @return mixed
+     * @since May 2, 2016 9:55:20 AM
+     * @uses
+     * @see
+     * @author Shima Payro <sh.payro@anetwork.ir>
+     */
 	public function notFound() {
 
 		return $this->setStatusCode( 404 )
@@ -172,14 +180,15 @@ class Messages extends Main
 
 	}
 
-	/**
-	 * Wrong parameters are entered
-	 * @author Shima Payro <sh.payro@anetwork.ir>
-	 * @param String $message
-	 * @since May 2, 2016 9:55:20 AM
-	 * @uses
-	 * @see
-	 */
+    /**
+     * Wrong parameters are entered
+     * @param String $message
+     * @return mixed
+     * @since May 2, 2016 9:55:20 AM
+     * @uses
+     * @see
+     * @author Shima Payro <sh.payro@anetwork.ir>
+     */
 	public function wrongParameters() {
 
 		return $this->setStatusCode( 406 )
@@ -189,14 +198,15 @@ class Messages extends Main
 
 	}
 
-	/**
-	 * Method is not allowed
-	 * @author Shima Payro <sh.payro@anetwork.ir>
-	 * @param String $message
-	 * @since May 2, 2016 9:55:20 AM
-	 * @uses
-	 * @see
-	 */
+    /**
+     * Method is not allowed
+     * @param String $message
+     * @return mixed
+     * @since May 2, 2016 9:55:20 AM
+     * @uses
+     * @see
+     * @author Shima Payro <sh.payro@anetwork.ir>
+     */
 	public function methodNotAllowed() {
 
 		return $this->setStatusCode( 405 )
@@ -206,14 +216,15 @@ class Messages extends Main
 
 	}
 
-	/**
-	 * There ara validation errors
-	 * @author Shima Payro <sh.payro@anetwork.ir>
-	 * @param $data array
-	 * @since May 2, 2016 9:55:20 AM
-	 * @uses
-	 * @see
-	 */
+    /**
+     * There ara validation errors
+     * @param $data array
+     * @return mixed
+     * @since May 2, 2016 9:55:20 AM
+     * @uses
+     * @see
+     * @author Shima Payro <sh.payro@anetwork.ir>
+     */
 	public function validationErrors( $message = null ) {
 
 		return $this->setStatusCode( 420 )
@@ -223,14 +234,15 @@ class Messages extends Main
 
 	}
 
-	/**
-	 * The request field is not found
-	 * @author Shima Payro <sh.payro@anetwork.ir>
-	 * @param String $message
-	 * @since May 2, 2016 9:55:20 AM
-	 * @uses
-	 * @see
-	 */
+    /**
+     * The request field is not found
+     * @param String $message
+     * @return mixed
+     * @since May 2, 2016 9:55:20 AM
+     * @uses
+     * @see
+     * @author Shima Payro <sh.payro@anetwork.ir>
+     */
 	public function requestFieldNotFound() {
 
 		return $this->setStatusCode( 446 )

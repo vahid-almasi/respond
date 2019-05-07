@@ -1,9 +1,9 @@
 {
-    "name": "vahid-almasi/respond",
+    "name": "vahid/respond",
     "type": "library",
     "description": "Easy JSON response for Laravel and Lumen, a useful package for handle your RESTful API endpoint",
     "keywords": [
-        "altman",
+        "vahid",
         "Respond",
         "json"
     ],
@@ -20,12 +20,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Altman\\Respond\\": "src"
+            "Vahid\\Respond\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Altman\\Respond\\": "tests"
+            "Vahid\\Respond\\": "tests"
         }
     },
     "scripts": {

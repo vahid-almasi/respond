@@ -1,6 +1,6 @@
 <?php
 
-namespace Anetwork\Respond;
+namespace Vahid\Respond;
 
 class Main {
 
@@ -124,7 +124,7 @@ class Main {
 	/**
 	 * Response
 	 * @param $data : json
-	 * @return $this|\Illuminate\Http\JsonResponse
+	 * @return mixed
 	 * @author Shima Payro <sh.payro@anetwork.ir>
 	 * @since May 2, 2016 9:48:45 AM
 	 * @uses
@@ -147,7 +147,7 @@ class Main {
 	 * @param string $message
 	 * @author Shima Payro <sh.payro@anetwork.ir>
 	 * @since May 2, 2016 9:49:21 AM
-	 * @return Main|\Illuminate\Http\JsonResponse
+	 * @return mixed
 	 * @uses
 	 * @see
 	 */
@@ -232,7 +232,7 @@ class Main {
 	 * Set headers
 	 * @author Shima Payro <sh.payro@anetwork.ir>
 	 * @since Sep 13, 2016
-	 * @return array
+	 * @return $this
 	 */
 	public function setHeaders( $headers = [] ) {
 
@@ -247,7 +247,7 @@ class Main {
 	 * @param null|array $data
 	 * @author Shima Payro <sh.payro@anetwork.ir>
 	 * @since May 2, 2016 9:50:19 AM
-	 * @return Main|\Illuminate\Http\JsonResponse
+	 * @return mixed
 	 * @uses
 	 * @see
 	 */

@@ -1,7 +1,7 @@
-[![Build Status](https://travis-ci.org/anetwork/respond.svg?branch=master)](https://travis-ci.org/anetwork/respond)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/anetwork/respond/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/anetwork/respond/?branch=master)
-[![Latest Stable Version](https://poser.pugx.org/anetwork/respond/v/stable)](https://packagist.org/packages/anetwork/respond)
-[![Total Downloads](https://poser.pugx.org/anetwork/respond/downloads)](https://packagist.org/packages/anetwork/respond)
+[![Build Status](https://travis-ci.org/vahid/respond.svg?branch=master)](https://travis-ci.org/vahid/respond)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/vahid/respond/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/vahid/respond/?branch=master)
+[![Latest Stable Version](https://poser.pugx.org/vahid/respond/v/stable)](https://packagist.org/packages/vahid/respond)
+[![Total Downloads](https://poser.pugx.org/vahid/respond/downloads)](https://packagist.org/packages/vahid/respond)
 
 # Laravel Respond
 
@@ -9,6 +9,7 @@ This package is provided to be used on lumen and laravel framework v5 and upper 
 
 # Requirement
 * Laravel ^5.1
+* Lumen
 * PHP ^5.5
 
 **The package is in process.**
@@ -18,19 +19,19 @@ This package is provided to be used on lumen and laravel framework v5 and upper 
 Via Composer
 
 ``` bash
-$ composer require vahid-almasi/respond
+$ composer require vahid/respond
 ```
 
 ##Config
 
 Add the following provider to providers part of config/app.php
 ``` php
-Anetwork\Respond\RespondServiceProvider::class
+Vahid\Respond\RespondServiceProvider::class
 ```
 
 and the following Facade to the aliases part
 ``` php
-'Respond' => Anetwork\Respond\Facades\Respond::class
+'Respond' => Vahid\Respond\Facades\Respond::class
 ```
 
 ## Usage
