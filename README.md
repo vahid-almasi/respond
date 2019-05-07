@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/vahid/respond.svg?branch=master)](https://travis-ci.org/vahid/respond)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/vahid/respond/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/vahid/respond/?branch=master)
+[![Build Status](https://travis-ci.org/vahid-almasi/respond.svg?branch=master)](https://travis-ci.org/vahid-almasi/respond)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/vahid-almasi/respond/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/vahid-almasi/respond/?branch=master)
 [![Latest Stable Version](https://poser.pugx.org/vahid/respond/v/stable)](https://packagist.org/packages/vahid/respond)
 [![Total Downloads](https://poser.pugx.org/vahid/respond/downloads)](https://packagist.org/packages/vahid/respond)
 
