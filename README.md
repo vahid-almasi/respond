@@ -16,22 +16,50 @@ This package is provided to be used on lumen and laravel framework v5 and upper 
 
 ## Install
 
-Via Composer
+##Via Composer
 
-``` bash
+Go to your project path and run this code in your terminal
+
+```bash
 $ composer require vahid/respond
 ```
 
+Or edit your composer.json to require the package.
+```json
+"require": {
+    "vahid/respond": "^1.0"
+}
+```
+Then run `composer update` in your terminal to pull it in
 ##Config
 
-Add the following provider to providers part of config/app.php
+### Laravel
+
+you will need to add the service provider to the providers array in your `config/app.php` as follows:
 ``` php
-Vahid\Respond\RespondServiceProvider::class
+Vahid\Respond\RespondServiceProvider::class,
 ```
 
-and the following Facade to the aliases part
+Next, also in the app.php config file, under the aliases array, you may want to add the Respond facade.
 ``` php
-'Respond' => Vahid\Respond\Facades\Respond::class
+'Respond' => Vahid\Respond\Facades\Respond::class,
+```
+
+Laravel 4:
+```bash
+$ php artisan config:publish vahid/respond
+```
+
+Laravel 5:
+```bash
+$ php artisan vendor:publish --provider="Vahid\Respond\Providers\RespondServiceProvider"
+```
+
+### Lumen
+
+you will need to add the service provider beside another register service providers on `bootstrap/app.php` as follows:
+```php
+$app->register(Vahid\Respond\RespondServiceProvider::class);
 ```
 
 ## Usage
@@ -106,9 +134,11 @@ Validation errors:
 ``` php
 Respond::validationErrors( $data );
 ```
-**Note:** If you use laravel FormRequest,to prevnet iteration, we recommond try this method in App\Http\Request.php and override response method of Illuminate FormRequest
+
+**Note:** If you use Laravel FormRequest, to prevent iteration, we recommend try this method in App\Http\Request.php and override response method of Illuminate FormRequest
 
 ###customization
+
 Set custom message for methods is like this:
 ``` php
 Respond::notFound( 'Leave it empty or enter your custom message here' );
