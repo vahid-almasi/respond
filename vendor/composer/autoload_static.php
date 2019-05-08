@@ -14,7 +14,7 @@ class ComposerStaticInitb90bf1d271f3139658812a290f5c564b
     );
 
     public static $prefixDirsPsr4 = array (
-        'Anetwork\\Respond\\' => 
+        'Vahid\\Respond\\' =>
         array (
             0 => __DIR__ . '/../..' . '/src',
             1 => __DIR__ . '/../..' . '/tests',

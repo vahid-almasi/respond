@@ -51,7 +51,11 @@ class Main {
 	public function __construct() {
 
 
-		$this->lang = \App::getLocale();
+        if( class_exists('\App')){
+            $this->lang = \App::getLocale();
+        }else{
+            $this->lang =  app('translator')->getLocale();
+        }
 
 		if(! file_exists(config_path($this->lang . '.php'))){
             $this->config = include __DIR__ . '/../errors/lang/' . $this->lang . '.php';

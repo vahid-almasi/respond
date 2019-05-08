@@ -12,8 +12,6 @@ This package is provided to be used on lumen and laravel framework v5 and upper 
 * Lumen
 * PHP ^5.5
 
-**The package is in process.**
-
 ## Install
 
 ##Via Composer
@@ -57,11 +55,46 @@ $ php artisan vendor:publish --provider="Vahid\Respond\Providers\RespondServiceP
 
 ### Lumen
 
+####Added into providers
+
 you will need to add the service provider beside another register service providers on `bootstrap/app.php` as follows:
 ```php
 $app->register(Vahid\Respond\RespondServiceProvider::class);
 ```
-
+ after that you need create a helper and add `config_path` function.
+ 
+ #### Create `config_path` helper for Lumen 
+ 
+ Create a file called GeneralHelpers.php in the app/Helpers directory. Paste the code inside it.
+ ```php
+<?php
+if ( ! function_exists('config_path'))
+{
+    /**
+     * Get the configuration path.
+     *
+     * @param  string $path
+     * @return string
+     */
+    function config_path($path = '')
+    {
+        return app()->basePath() . '/config' . ($path ? '/' . $path : $path);
+    }
+}
+``` 
+Go to composer.json and add files to autoload so that it looks like this:
+```json
+"autoload": {
+    "psr-4": {
+        "App\\": "app/"
+    },
+    "files": [
+        "app/Helpers/GeneralHelpers.php"
+    ]
+},
+```
+Run composer dump-autoload to load the newly created helpers file.
+    
 ## Usage
 
 You can use these methods in deffernt ways:
