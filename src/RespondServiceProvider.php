@@ -17,7 +17,7 @@ class RespondServiceProvider extends ServiceProvider
         if( class_exists('\App')){
             $lang = \App::getLocale();
         }else{
-            $lang =  app('translator')->getLocale();
+            $lang = /** @scrutinizer ignore-call */ app('translator')->getLocale();
         }
 
 		$this->publishes([

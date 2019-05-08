@@ -54,7 +54,7 @@ class Main {
         if( class_exists('\App')){
             $this->lang = \App::getLocale();
         }else{
-            $this->lang =  app('translator')->getLocale();
+            $this->lang = /** @scrutinizer ignore-call */ app('translator')->getLocale();
         }
 
 		if(! file_exists(config_path($this->lang . '.php'))){
