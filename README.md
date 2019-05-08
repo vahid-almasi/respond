@@ -55,7 +55,7 @@ $ php artisan vendor:publish --provider="Vahid\Respond\Providers\RespondServiceP
 
 ### Lumen
 
-####Added into providers
+#### Added into providers
 
 you will need to add the service provider beside another register service providers on `bootstrap/app.php` as follows:
 ```php
