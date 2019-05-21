@@ -126,17 +126,17 @@ Respond::insertSucceeded();
 
 When deletion action fails:
 ``` php
-Respond::deleteFaild();
+Respond::deleteFailed();
 ```
 
 When updating fails:
 ``` php
-Respond::updateFaild();
+Respond::updateFailed();
 ```
 
 when insertion fails:
 ``` php
-Respond::insertFaild();
+Respond::insertFailed();
 ```
 
 Not Found Error:
@@ -160,7 +160,7 @@ Respond::methodNotAllowed();
 ```
 
 ``` php
-Respond::requestFieldNotFound();
+Respond::requestFailedNotFound();
 ```
 
 Validation errors:
