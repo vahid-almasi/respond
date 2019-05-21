@@ -14,7 +14,7 @@ This package is provided to be used on lumen and laravel framework v5 and upper 
 
 ## Install
 
-##Via Composer
+### Via Composer
 
 Go to your project path and run this code in your terminal
 
@@ -29,7 +29,7 @@ Or edit your composer.json to require the package.
 }
 ```
 Then run `composer update` in your terminal to pull it in
-##Config
+## Config
 
 ### Laravel
 
@@ -170,7 +170,7 @@ Respond::validationErrors( $data );
 
 **Note:** If you use Laravel FormRequest, to prevent iteration, we recommend try this method in App\Http\Request.php and override response method of Illuminate FormRequest
 
-###customization
+### customization
 
 Set custom message for methods is like this:
 ``` php
