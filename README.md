@@ -57,11 +57,11 @@ $ php artisan vendor:publish --provider="Vahid\Respond\Providers\RespondServiceP
 
 #### Added into providers
 
-you will need to add the service provider beside another register service providers on `bootstrap/app.php` as follows:
+you will need to add the service provider beside another **register service providers** on `bootstrap/app.php` as follows:
 ```php
 $app->register(Vahid\Respond\RespondServiceProvider::class);
 ```
- after that you need create a helper and add `config_path` function.
+ after that you need create a **helper** and add `config_path` function.
  
  #### Create `config_path` helper for Lumen 
  
