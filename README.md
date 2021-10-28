@@ -8,9 +8,9 @@
 This package is provided to be used on lumen and laravel framework v5 and upper and it gives clean methods to handle json response with specific predetermined messages.
 
 # Requirement
-* Laravel ^5.1
+* Laravel >=5.1
 * Lumen
-* PHP ^5.5
+* PHP >=5.5
 
 ## Install
 

@@ -10,7 +10,7 @@
     "homepage": "https://github.com/vahid-almasi",
     "license": "MIT",
     "require": {
-        "illuminate/support": "~5.1",
+        "illuminate/support": ">=5.1",
         "php" : ">=5.5"
     },
     "require-dev": {
